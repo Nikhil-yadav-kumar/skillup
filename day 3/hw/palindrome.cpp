@@ -13,7 +13,7 @@ int main() {
         rev = rev * 10 + remainder;
         num /= 10;
     }
-    
+
     if (original == rev) {
         cout << original << " is a Palindrome number." << endl;
     } else {
@@ -22,3 +22,4 @@ int main() {
 
     return 0;
 }
+
